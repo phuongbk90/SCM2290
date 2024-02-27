@@ -74,25 +74,40 @@ elif 'Linux' in platform.platform():
         return newpath
 
     tools_dict = \
-    { 'tomcat' : { 'file_name': 'apache-tomcat-8.0.8.tar.gz',
-                   'file_size': 9098084,
-                   'extract_dir' : 'apache-tomcat-8.0.8',
-                   'bin_file': '.sh'
-                  },
-      'opengrok' : { 'file_name' : 'opengrok-0.12.1.tar.gz',
-                     'file_size': 14506193,
-                     'extract_dir' : 'opengrok-0.12.1',
+    { 'tomcat' : { 'file_name': 'apache-tomcat-8.5.31.tar.gz',
+                'file_size': 9552281,
+                'extract_dir' : 'apache-tomcat-8.5.31',
+                'bin_file': '.sh'
+                },
+    # { 'tomcat' : { 'file_name': 'apache-tomcat-8.0.8.tar.gz',
+    #                'file_size': 9098084,
+    #                'extract_dir' : 'apache-tomcat-8.0.8',
+    #                'bin_file': '.sh'
+    #               },
+    #   'opengrok' : { 'file_name' : 'opengrok-0.12.1.tar.gz',
+    #                  'file_size': 14506193,
+    #                  'extract_dir' : 'opengrok-0.12.1',
+    #                  'bin_file': 'opengrok.jar'
+    #                 },
+        'opengrok' : { 'file_name' : 'opengrok-1.0.tar.gz',
+                     'file_size': 25541666,
+                     'extract_dir' : 'opengrok-1.0',
                      'bin_file': 'opengrok.jar'
                     },
-      'jre': { 'file_name' : 'jre-7u65-linux-x64.tar.gz',
-               'file_size': 47005094,
-               'extract_dir' : 'jre1.7.0_65',
-               'bin_file': 'java'
-              },
+
+    #   'jre': { 'file_name' : 'jre-7u65-linux-x64.tar.gz',
+    #            'file_size': 47005094,
+    #            'extract_dir' : 'jre1.7.0_65',
+    #            'bin_file': 'java'
+    #           },
+        'jre': { 'file_name' : 'jre-8u202-linux-x64.tar.gz',
+        'file_size': 86883826,
+        'extract_dir' : 'jre1.8.0_202',
+        'bin_file': 'java'
+        },
       'ctags': { 'file_name' : 'exuberant-ctags.tar',
                  'file_size': 921600,
                  'extract_dir' : 'ctags58',
                  'bin_file': 'ctags'
                 }
     }
-
